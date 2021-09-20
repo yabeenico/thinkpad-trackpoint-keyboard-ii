@@ -1,9 +1,6 @@
 #MaxHotkeysPerInterval 2000
 #SingleInstance force
 
-#Include lib.ahk
-;DebugConsoleInitialize()
-
 WheelUp:: hookWheelUp()
 global isWheelUP := false
 hookWheelUp(){
@@ -24,7 +21,6 @@ MButton up::hookMButtonUP()
 hookMButtonUP(){
     if(!(isWheelUp | isWheelDown)){
         send {MButton}
-        print("MButton clicked")
     }
     isWheelUp   := false
     isWheelDown := false
