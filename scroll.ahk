@@ -1,3 +1,7 @@
+; - Realizing scroll and middle button click simultaniously.
+; - When connect to Windosw by Bluetooh (also USB dongle).
+; - Uninstall the driver on your PC or uncheck "ThinkPad Preferred Scrolling".
+
 #MaxHotkeysPerInterval 2000
 #SingleInstance force
 
